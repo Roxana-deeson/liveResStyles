@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.body {
+  background-color: #f9f4f5;
+}
+
+.eventJourneyContainer .widget-header {
+  background-color: #5c7d77;
+  color: white;
+}
+
+.eventJourneyContainer .widget-header .line {
+  border: 1px solid #d0a75b;
+  opacity: 1;
+}
+
+.eventJourneyContainer .summary-header {
+  background: white;
+}
+
+.eventJourneyContainer .widget-header .booking-reference .reference-header {
+  color: #fff;
+}
+
+.eventJourneyContainer .widget-header .booking-reference .reference-number {
+  color: #d0a75b;
+}
+.eventJourneyContainer .summary-header .summary-header-title {
+  color: #273d3e;
+}
+.eventJourneyContainer .summary-header .summary-header-icon {
+  color: #d0a75b;
+}
+
+.dateSelection .DayPicker-Caption {
+  text-align: center;
+  color: #273d3e;
+}
+
+.dateSelection .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  background-color: #5c7d77;
+}
+
+.nav-tab .nav-link.active::after {
+  border-bottom: 5px solid #273d3e;
+}
+
+.nav-tab .nav-link:hover::after {
+  border-bottom: 5px solid #5c7d77;
+}
+
+.dateSelection .timePickerColumn .time-select-container .time-select__option--is-selected{
+  background: #5c7d77;
+  color: white;
+
+}
+
+.nav-tab .nav-link {
+  color: #5c7d77;
+}
+
+
+.nav-tab .nav-link.active {
+  color: #273d3e;
+}
+
+.summary-header .link {
+  color: #273d3e!important;
+}
+
+.summary-header .link:hover {
+  color: #5c7d77!important;
+}
+
+.dateSelection .btn-outline-primary {
+  color: #464742;;
+}
+
+.dateSelection .btn-outline-primary:not(:disabled):not(.disabled).active {
+  background-color: #d0a75b;
+  border-radius: 2rem;
+  border: none;
+  color: #464742;
+}
+
+.btn-primary {
+  background-color: #d0a75b;
+  border-radius: 2rem;
+  border: none;
+  color: black;
+}
+
+.btn-primary:hover {
+  background: #d0a75b!important;
+  filter: brightness(90%);
+  color: black;
+}
+
+.btn-primary:focus , .btn-primary:active {
+  background: #d0a75b;
+  border-color: #d0a75b;
+  box-shadow: 0 0 0 0.2rem #d0a75b80;
+}
+
+.btn-primary[disabled] {
+  background: #d0a75b;
+  border-color: #d0a75b;
+  cursor: not-allowed;
+}
+
+.input-text, .dropdown-toggle {
+  border-radius: 2rem!important;
+}
+
+#selected-text {
+  background: #5c7d77;
+}
+
+.selection-container .input-card-radio:checked::before {
+  color: #5c7d77!important;
+}
+
+.selected {
+  border: none!important;
+}
+
+.card-list.selected .card-title {
+  color: #273d3e;
+}
+
+.termsConditions a {
+  color: #273d3e;
+}
+
+.consent-checkbox {
+  color: #5c7d77;
+}
+
+.loading-spinner div {
+  border: 6px solid #5c7d77;
+  border-color: #5c7d77 transparent transparent transparent;
+}
+
+.loading-spinner-mini div {
+  border: 3px solid #5c7d77;
+  border-color: #5c7d77 transparent transparent transparent;
+}
