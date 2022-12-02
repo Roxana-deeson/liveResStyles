@@ -15,7 +15,7 @@
 }
 
 .eventJourneyContainer .widget-header .line {
-  border: 1px solid #d0a75b;
+  border: 1px solid white;
   opacity: 1;
 }
 
@@ -34,7 +34,7 @@
   color: #273d3e;
 }
 .eventJourneyContainer .summary-header .summary-header-icon {
-  color: #d0a75b;
+  color: #5c7d77;
 }
 
 .dateSelection .DayPicker-Caption {
